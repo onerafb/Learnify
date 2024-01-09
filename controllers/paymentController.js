@@ -39,7 +39,7 @@ export const buySubscription = catchAsyncErrors(async (req, res, next) => {
 export const paymentVerification = catchAsyncErrors(async (req, res, next) => {
   const {
     razorpay_payment_id,
-    razorpay_order_id,
+    // razorpay_order_id,
     razorpay_subscription_id,
     razorpay_signature,
   } = req.body;
